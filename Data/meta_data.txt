@@ -1,0 +1,13 @@
+Run	Tissue	Sexual
+SRR1758112	Brain	Female
+SRR1758113	Brain	Male
+SRR1758114	Gonad	Female
+SRR1758115	Gonad	Male
+SRR1758116	Brain	Female
+SRR1758117	Brain	Male
+SRR1758118	Gonad	Female
+SRR1758119	Gonad	Male
+SRR1758120	Brain	Female
+SRR1758121	Brain	Male
+SRR1758122	Gonad	Female
+SRR1758123	Gonad	Male

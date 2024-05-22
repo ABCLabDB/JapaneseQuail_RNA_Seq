@@ -1,9 +1,0 @@
-geneSymbol	Chromosome.scaffold.name	Gene.start..bp.	Gene.end..bp.	Strand	Gene.type	Gene.name	Gene.description
-ENSCJPG00005006920	Z	10482067	10531605	-1	protein_coding	CPLANE1	ciliogenesis and planar polarity effector 1 [Source:HGNC Symbol;Acc:HGNC:25801]
-ENSCJPG00005007178	Z	10561683	10684045	1	protein_coding	WDR70	WD repeat domain 70 [Source:NCBI gene;Acc:107305851]
-ENSCJPG00005007966	Z	12050967	12066614	-1	protein_coding	WDR41	WD repeat domain 41 [Source:NCBI gene;Acc:107305935]
-ENSCJPG00005010929	Z	14373851	14385471	-1	protein_coding	PPWD1	peptidylprolyl isomerase domain and WD repeat containing 1 [Source:NCBI gene;Acc:107305891]
-ENSCJPG00005002000	Z	22538895	22547283	-1	protein_coding	UTP15	UTP15 small subunit processome component [Source:NCBI gene;Acc:107306059]
-ENSCJPG00005009636	Z	41527006	41553075	-1	protein_coding	WDR36	WD repeat domain 36 [Source:NCBI gene;Acc:107306362]
-ENSCJPG00005003616	Z	60456479	60473121	-1	protein_coding	PLAA	phospholipase A2 activating protein [Source:NCBI gene;Acc:107306602]
-ENSCJPG00005003677	Z	62389192	62418287	1	protein_coding	ELP1	elongator complex protein 1 [Source:NCBI gene;Acc:107306643]

@@ -1,0 +1,11 @@
+Term	PValue
+KW-0969~Cilium	3.36E-20
+GO:0031514~motile cilium	9.15E-16
+KW-0493~Microtubule	2.06E-10
+KW-0282~Flagellum	1.13E-08
+GO:0005874~microtubule	3.24E-08
+cjo04814:Motor proteins	2.53E-08
+GO:0005524~ATP binding	7.19E-08
+GO:0007018~microtubule-based movement	2.22E-07
+KW-0505~Motor protein	4.17E-06
+KW-0131~Cell cycle	0.000538406

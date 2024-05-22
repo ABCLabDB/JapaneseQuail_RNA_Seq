@@ -1,0 +1,7 @@
+Run	Tissue
+SRR1758112	Female brain
+SRR1758113	Male brain
+SRR1758116 	Female brain
+SRR1758117 	Male brain
+SRR1758120	Female brain
+SRR1758121	Male brain

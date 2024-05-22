@@ -1,9 +1,0 @@
-Term	PValue
-IPR001881:EGF-like_Ca-bd_dom	8.70E-07
-IPR018097:EGF_Ca-bd_CS	1.44E-06
-IPR000152:EGF-type_Asp/Asn_hydroxyl_site	1.54E-06
-IPR000742:EGF-like_dom	8.73E-06
-SM00179:EGF_CA	1.54E-05
-IPR008160:Collagen	3.76E-06
-IPR011993:PH-like_dom_sf	4.34E-06
-GO:0031012~extracellular matrix	1.21E-05

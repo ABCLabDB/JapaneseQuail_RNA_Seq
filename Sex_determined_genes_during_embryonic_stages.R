@@ -15,6 +15,218 @@ library(stringr)
 library(tidyr)
 library(ggradar)
 
+#### Analysis for finding sex-biased genes in embryonic stage E4.5, E6.5, E8.5, E10.5 ####
+meta_data <- fread("./Data/Figure5_data/Metadata.txt")
+variable <- unique(meta_data$Stage[which(meta_data$Seq_type=="Single")])
+
+
+for(i in 1:length(variable)){
+  
+  ## Load Pseudo bulk data ##
+  Bulk_data <- fread("./Data/Quantification_chicken_embryo/Pseudo_bulk_gene_expression_data_galgal6.tsv")
+  
+  ## Loading featureCount data
+  meta_data <- fread("./Data/Figure5_data/Metadata.txt")
+  
+  meta_data <- meta_data[which(meta_data$Age=="Embryo" & meta_data$Species=="Chicken" & meta_data$Stage==variable[i]),]
+  
+  
+  #### Extracting orthologue gene list ####
+  
+  orthologue_list <- fread("./Data/Figure5_data/Orthologue_filtered_galgal6.txt")
+  
+  Bulk_data <- Bulk_data[which(Bulk_data$geneSymbol %in% orthologue_list$Chicken_geneSymbol),]
+  
+  
+  Annotation <- fread("./Data/Figure5_data/mart_export_galgal6.txt")
+  
+  
+  total_table <- merge(Annotation,
+                       Bulk_data,
+                       by.x="Gene stable ID",
+                       by.y="geneSymbol")
+  
+  Annotation <- total_table %>% dplyr::select(c(colnames(Annotation)))
+  
+  geneSymbol <- Annotation$`Gene stable ID`
+  
+  
+  count <- total_table %>% dplyr::select(meta_data$Run)
+  
+  
+  unique(Annotation$`Chromosome/scaffold name`)
+  ## Removing unnecessary chromosome
+  indexRemoval <- c(grep("KZ",Annotation$`Chromosome/scaffold name`),grep("MT",Annotation$`Chromosome/scaffold name`))
+  
+  
+  ## Removing all zero counted genes    
+  count <- count[-indexRemoval, ]
+  Annotation <- Annotation[-indexRemoval, ]
+  geneSymbol <- geneSymbol[-indexRemoval]
+  
+  
+  
+  ## Defining experimental variables
+  
+  meta_data$sex <- str_to_sentence(meta_data$sex)
+  meta_data$Tissue <- str_to_sentence(meta_data$Tissue)
+  Tissue <- factor(meta_data$Tissue)
+  Stage <- factor(meta_data$Stage)
+  Sex <- factor(meta_data$Sex)
+  Seq_type <- factor(meta_data$Seq_type)
+  
+  
+  design <- model.matrix( ~ Sex)
+  
+  
+  ## TMM normalization using edgeR package
+  Y <- DGEList(counts = count, genes = geneSymbol)
+  
+  Y <- calcNormFactors(Y, method = "TMM") ## TMM Normalization
+  
+  Y <- estimateDisp(Y, design)
+  
+  fit <- glmFit(Y, design)## GLM
+  
+  logCPM <- edgeR::cpm(Y, normalized.lib.sizes = TRUE, log = T)
+  
+  
+  Result_sex <- glmLRT(fit, 2)
+  Result_sex_table <-  topTags(Result_sex , n = dim(logCPM)[1], sort.by = "none")$table
+  
+}
+
+
+#### Analysis for finding sex-biased genes in embryonic stage E5.5, E6, E10, E18.5, E19 ####
+
+meta_data <- fread("./Data/Figure5_data/Metadata.txt")
+variable <- unique(meta_data$Stage[which(meta_data$Seq_type=="Bulk" & meta_data$Age=="Embryo" & meta_data$Species=="Chicken")])
+
+variable
+
+for(k in 1:length(variable)){
+  
+  meta_data <- fread("./Data/Figure5_data/Metadata.txt")
+  
+  meta_data <- meta_data[which(meta_data$Age=="Embryo" & meta_data$Species=="Chicken"),]
+  
+  meta_data <- meta_data[which(meta_data$Stage==variable[k]),]
+  
+  ### Extracting orthologue gene list ###
+  
+  orthologue_list <- fread("./Data/Figure5_data/Orthologue_filtered_galgal6.txt")
+  
+  fileList <- paste0("./Data/Quantification_chicken_embryo/",meta_data$Run,'.txt')
+  
+  
+  fileList
+  temp <- fread(fileList[1])
+  dim(temp)
+  str(temp)
+  sampleID <- c(fileList[1])
+  
+  
+  geneSymbol <- temp$Geneid
+  
+  orthologue_idx <- which(geneSymbol %in% orthologue_list$Chicken_geneSymbol)
+  
+  geneSymbol <- geneSymbol[orthologue_idx]
+  
+  
+  
+  count <- data.frame(temp[, 7])
+  
+  
+  for (i in 2:length(fileList)) {
+    temp <- data.frame(fread(fileList[i]))
+    count <- data.frame(count, temp[, 7])
+    sampleID <- c(sampleID,fileList[i])
+  }
+  
+  
+  count <- count[orthologue_idx,]
+  
+  
+  ## Loading gene annotation
+  temp <- data.frame(geneSymbol)
+  
+  
+  Annotation <- fread("./Data/Figure5_data/mart_export_galgal6.txt")
+  temp <-  merge(
+    x = temp,
+    y = Annotation,
+    by.x = "geneSymbol",
+    by.y = "Gene stable ID",
+    sort = F
+  )
+  
+  Annotation <- temp
+  
+  all.equal(as.character(Annotation$geneSymbol), geneSymbol)
+  
+  data.frame(as.character(Annotation$geneSymbol), geneSymbol)
+  
+  
+  
+  
+  ## Removing unnecessary chromosome
+  
+  indexRemoval <- c(grep("KZ",Annotation$`Chromosome/scaffold name`),grep("MT",Annotation$`Chromosome/scaffold name`),grep("LGE",Annotation$`Chromosome/scaffold name`),grep("MT",Annotation$`Chromosome/scaffold name`),grep("MU",Annotation$`Chromosome/scaffold name`),grep("JAENSK",Annotation$`Chromosome/scaffold name`))
+  # 
+  
+  unique(Annotation$`Chromosome/scaffold name`)
+  
+  ## Removing all zero counted genes    
+  
+  indexRemoval <- c(indexRemoval,(which(rowSums(count) == 0)))
+  count <- count[-indexRemoval, ]
+  Annotation <- Annotation[-indexRemoval, ]
+  geneSymbol <- geneSymbol[-indexRemoval]
+  
+  
+  
+  ## Defining experimental variables
+  
+  meta_data$sex <- str_to_sentence(meta_data$sex)
+  meta_data$Tissue <- str_to_sentence(meta_data$Tissue)
+  Tissue <- factor(meta_data$Tissue)
+  Stage <- factor(meta_data$Stage)
+  Sex <- factor(meta_data$Sex)
+  Seq_type <- factor(meta_data$Seq_type)
+  
+  
+  design <- model.matrix( ~ Sex)
+  
+  
+  
+  
+  
+  ## TMM normalization using edgeR package
+  Y <- DGEList(counts = count, genes = geneSymbol)
+  
+  Y <- calcNormFactors(Y, method = "TMM") ## TMM Normalizatio
+  
+  Y <- estimateDisp(Y, design)
+  
+  fit <- glmFit(Y, design)## GLM
+  
+  logCPM <- edgeR::cpm(Y, normalized.lib.sizes = TRUE, log = T)
+  
+  
+  #### DEG analysis in sex
+  
+  colnames(fit)
+  
+  Result_sex <- glmLRT(fit, 2)
+  Result_sex_table <-  topTags(Result_sex , n = dim(logCPM)[1], sort.by = "none")$table
+  
+  
+  
+  
+}
+
+
+
 #### Figure 5A ####
 
 

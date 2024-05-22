@@ -5,10 +5,10 @@ This repository includes source codes for the study **"Exploring sexual dimorphi
 ## Source Code
 
 - **Package_install.R**: Script to install all the packages needed for RNA-Seq analysis. Please run this first.
-- **Figure2.R**: R code for identifying the characterization of brain tissue in Japanese quail.
-- **Figure3.R**: R code for identifying the characterization of gonadal tissues.
-- **Figure4.R**: R code for investigating tissue-specific expression of sex-biased genes in Japanese quail.
-- **Figure5.R**: R code for investigating sex determination during embryonic development of Japanese quail.
+- **Characterization_quail_brain.R**: Chapter 1: identifying the characterization of brain tissue in Japanese quail.
+- **Characterization_quail_gonadal_tissues.R**: Chapter 2: identifying the characterization of gonadal tissues.
+- **Investigation_tissue_specificity_genes.R**: Chapter 3: for investigating tissue-specific expression of sex-biased genes in Japanese quail.
+- **Sex_determined_genes_during_embryonic_stages.R**: Chapter 4: investigating sex-determined genes during embryonic development of Japanese quail.
 
 ## Data
 

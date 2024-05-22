@@ -1,0 +1,115 @@
+Run	BioProject	Instrument	Layout	LibrarySelection	Tissue	Sex	Stage	Age	Species	Seq_type
+SRR10856119	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E4.5	Embryo	Chicken	Single
+SRR10856120	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E4.5	Embryo	Chicken	Single
+SRR10856121	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E4.5	Embryo	Chicken	Single
+SRR10856122	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E4.5	Embryo	Chicken	Single
+SRR10856123	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E4.5	Embryo	Chicken	Single
+SRR10856124	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E4.5	Embryo	Chicken	Single
+SRR10856125	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E4.5	Embryo	Chicken	Single
+SRR10856126	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E4.5	Embryo	Chicken	Single
+SRR10856127	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E6.5	Embryo	Chicken	Single
+SRR10856128	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E6.5	Embryo	Chicken	Single
+SRR10856129	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E6.5	Embryo	Chicken	Single
+SRR10856130	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E6.5	Embryo	Chicken	Single
+SRR10856131	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E6.5	Embryo	Chicken	Single
+SRR10856132	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E6.5	Embryo	Chicken	Single
+SRR10856133	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E6.5	Embryo	Chicken	Single
+SRR10856134	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E6.5	Embryo	Chicken	Single
+SRR10856135	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E8.5	Embryo	Chicken	Single
+SRR10856136	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E8.5	Embryo	Chicken	Single
+SRR10856137	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E8.5	Embryo	Chicken	Single
+SRR10856138	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E8.5	Embryo	Chicken	Single
+SRR10856139	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E8.5	Embryo	Chicken	Single
+SRR10856140	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E8.5	Embryo	Chicken	Single
+SRR10856141	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E8.5	Embryo	Chicken	Single
+SRR10856142	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E8.5	Embryo	Chicken	Single
+SRR10856143	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E10.5	Embryo	Chicken	Single
+SRR10856144	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E10.5	Embryo	Chicken	Single
+SRR10856145	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E10.5	Embryo	Chicken	Single
+SRR10856146	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Female	E10.5	Embryo	Chicken	Single
+SRR10856147	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E10.5	Embryo	Chicken	Single
+SRR10856148	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E10.5	Embryo	Chicken	Single
+SRR10856149	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E10.5	Embryo	Chicken	Single
+SRR10856150	PRJNA600155	NextSeq 500	PAIRED	cDNA	Gonad	Male	E10.5	Embryo	Chicken	Single
+SRR21047542	PRJNA867032	PCR	PAIRED	ILLUMINA	Gonad	Male	10 months	Adult	Chicken	Bulk
+SRR21047543	PRJNA867032	PCR	PAIRED	ILLUMINA	Gonad	Male	10 months	Adult	Chicken	Bulk
+SRR21047544	PRJNA867032	PCR	PAIRED	ILLUMINA	Gonad	Male	10 months	Adult	Chicken	Bulk
+SRR21047546	PRJNA867032	PCR	PAIRED	ILLUMINA	Gonad	Male	10 months	Adult	Chicken	Bulk
+SRR21047547	PRJNA867032	PCR	PAIRED	ILLUMINA	Gonad	Male	10 months	Adult	Chicken	Bulk
+SRR21047548	PRJNA867032	PCR	PAIRED	ILLUMINA	Gonad	Male	10 months	Adult	Chicken	Bulk
+SRR11343123	PRJNA613236	cDNA	PAIRED	ILLUMINA	Gonad	Female	10 months	Adult	Chicken	Bulk
+SRR11343124	PRJNA613236	cDNA	PAIRED	ILLUMINA	Gonad	Female	10 months	Adult	Chicken	Bulk
+SRR11343125	PRJNA613236	cDNA	PAIRED	ILLUMINA	Gonad	Female	10 months	Adult	Chicken	Bulk
+SRR11343126	PRJNA613236	cDNA	PAIRED	ILLUMINA	Gonad	Female	10 months	Adult	Chicken	Bulk
+SRR11343127	PRJNA613236	cDNA	PAIRED	ILLUMINA	Gonad	Female	10 months	Adult	Chicken	Bulk
+SRR11343128	PRJNA613236	cDNA	PAIRED	ILLUMINA	Gonad	Female	10 months	Adult	Chicken	Bulk
+SRR9606511	PRJNA551402	cDNA	PAIRED	ILLUMINA	Brain	Male	12 months	Adult	Chicken	Bulk
+SRR9606519	PRJNA551402	cDNA	PAIRED	ILLUMINA	Brain	Male	12 months	Adult	Chicken	Bulk
+SRR9606527	PRJNA551402	cDNA	PAIRED	ILLUMINA	Brain	Male	12 months	Adult	Chicken	Bulk
+SRR9606535	PRJNA551402	cDNA	PAIRED	ILLUMINA	Brain	Male	12 months	Adult	Chicken	Bulk
+SRR9606543	PRJNA551402	cDNA	PAIRED	ILLUMINA	Brain	Male	12 months	Adult	Chicken	Bulk
+SRR12432240	PRJNA656654	RANDOM PCR	PAIRED	ILLUMINA	Brain	Female	7 months	Adult	Chicken	Bulk
+SRR12432241	PRJNA656654	RANDOM PCR	PAIRED	ILLUMINA	Brain	Female	7 months	Adult	Chicken	Bulk
+SRR12432242	PRJNA656654	RANDOM PCR	PAIRED	ILLUMINA	Brain	Female	7 months	Adult	Chicken	Bulk
+SRR12432243	PRJNA656654	RANDOM PCR	PAIRED	ILLUMINA	Brain	Female	7 months	Adult	Chicken	Bulk
+SRR12432244	PRJNA656654	RANDOM PCR	PAIRED	ILLUMINA	Brain	Female	7 months	Adult	Chicken	Bulk
+SRR16214659	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Male	E5.5	Embryo	Chicken	Bulk
+SRR16214660	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Male	E5.5	Embryo	Chicken	Bulk
+SRR16214661	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Male	E5.5	Embryo	Chicken	Bulk
+SRR16214662	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Male	E5.5	Embryo	Chicken	Bulk
+SRR16214663	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Female	E5.5	Embryo	Chicken	Bulk
+SRR16214664	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Female	E5.5	Embryo	Chicken	Bulk
+SRR16214672	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Female	E5.5	Embryo	Chicken	Bulk
+SRR16214673	PRJNA766745	Illumina NovaSeq 6000	PAIRED	cDNA	Gonad	Female	E5.5	Embryo	Chicken	Bulk
+SRR21413813	PRJNA871063	Illumina NovaSeq 6000	PAIRED	Oligo-dT	Gonad	Female	E18.5	Embryo	Chicken	Bulk
+SRR21413814	PRJNA871063	Illumina NovaSeq 6000	PAIRED	Oligo-dT	Gonad	Female	E18.5	Embryo	Chicken	Bulk
+SRR21413815	PRJNA871063	Illumina NovaSeq 6000	PAIRED	Oligo-dT	Gonad	Female	E18.5	Embryo	Chicken	Bulk
+SRR21413816	PRJNA871063	Illumina NovaSeq 6000	PAIRED	Oligo-dT	Gonad	Male	E18.5	Embryo	Chicken	Bulk
+SRR21413817	PRJNA871063	Illumina NovaSeq 6000	PAIRED	Oligo-dT	Gonad	Male	E18.5	Embryo	Chicken	Bulk
+SRR21413818	PRJNA871063	Illumina NovaSeq 6000	PAIRED	Oligo-dT	Gonad	Male	E18.5	Embryo	Chicken	Bulk
+SRR2889298	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Female	E19	Embryo	Chicken	Bulk
+SRR2889299	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Female	E19	Embryo	Chicken	Bulk
+SRR2889300	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Female	E19	Embryo	Chicken	Bulk
+SRR2889301	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Female	E19	Embryo	Chicken	Bulk
+SRR2889302	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Male	E19	Embryo	Chicken	Bulk
+SRR2889303	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Male	E19	Embryo	Chicken	Bulk
+SRR2889304	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Male	E19	Embryo	Chicken	Bulk
+SRR2889305	PRJNA284655	Illumina HiSeq 1000	PAIRED	cDNA	Gonad	Male	E19	Embryo	Chicken	Bulk
+SRR21047533	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Female	E10	Embryo	Chicken	Bulk
+SRR21047534	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Female	E10	Embryo	Chicken	Bulk
+SRR21047584	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Female	E10	Embryo	Chicken	Bulk
+SRR21047585	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Female	E10	Embryo	Chicken	Bulk
+SRR21047586	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Female	E10	Embryo	Chicken	Bulk
+SRR21047587	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Female	E10	Embryo	Chicken	Bulk
+SRR21047588	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Female	E10	Embryo	Chicken	Bulk
+SRR21047535	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Male	E10	Embryo	Chicken	Bulk
+SRR21047545	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Male	E10	Embryo	Chicken	Bulk
+SRR21047556	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Male	E10	Embryo	Chicken	Bulk
+SRR21047567	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Male	E10	Embryo	Chicken	Bulk
+SRR21047578	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Male	E10	Embryo	Chicken	Bulk
+SRR21047589	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Male	E10	Embryo	Chicken	Bulk
+SRR21047590	PRJNA867032	Illumina NovaSeq 6000	PAIRED	PCR	Gonad	Male	E10	Embryo	Chicken	Bulk
+SRR11773325	PRJNA631788	BGISEQ	PAIRED	cDNA	Gonad	Male	E6	Embryo	Chicken	Bulk
+SRR11773326	PRJNA631788	BGISEQ	PAIRED	cDNA	Gonad	Male	E6	Embryo	Chicken	Bulk
+SRR11773327	PRJNA631788	BGISEQ	PAIRED	cDNA	Gonad	Male	E6	Embryo	Chicken	Bulk
+SRR11773331	PRJNA631788	BGISEQ	PAIRED	cDNA	Gonad	Female	E6	Embryo	Chicken	Bulk
+SRR11773332	PRJNA631788	BGISEQ	PAIRED	cDNA	Gonad	Female	E6	Embryo	Chicken	Bulk
+SRR11773333	PRJNA631788	BGISEQ	PAIRED	cDNA	Gonad	Female	E6	Embryo	Chicken	Bulk
+DRR147606	PRJDB7305	Illumina HiSeq 3000	PAIRED	PolyA	Gonad	Female	E5	Embryo	Japanese quail	Bulk
+DRR147607	PRJDB7305	Illumina HiSeq 3000	PAIRED	PolyA	Gonad	Male	E5	Embryo	Japanese quail	Bulk
+DRR147608	PRJDB7305	Illumina HiSeq 3000	PAIRED	PolyA	Gonad	Female	E6	Embryo	Japanese quail	Bulk
+DRR147609	PRJDB7305	Illumina HiSeq 3000	PAIRED	PolyA	Gonad	Male	E6	Embryo	Japanese quail	Bulk
+DRR186504	PRJDB7305	Illumina HiSeq 3000	PAIRED	PolyA	Gonad	Female	E10	Embryo	Japanese quail	Bulk
+DRR186505	PRJDB7305	Illumina HiSeq 3000	PAIRED	PolyA	Gonad	Male	E10	Embryo	Japanese quail	Bulk
+SRR1758112	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Brain	Female	Adult	Adult	Japanese quail	Bulk
+SRR1758113	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Brain	Male	Adult	Adult	Japanese quail	Bulk
+SRR1758114	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Gonad	Female	Adult	Adult	Japanese quail	Bulk
+SRR1758115	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Gonad	Male	Adult	Adult	Japanese quail	Bulk
+SRR1758116	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Brain	Female	Adult	Adult	Japanese quail	Bulk
+SRR1758117	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Brain	Male	Adult	Adult	Japanese quail	Bulk
+SRR1758118	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Gonad	Female	Adult	Adult	Japanese quail	Bulk
+SRR1758119	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Gonad	Male	Adult	Adult	Japanese quail	Bulk
+SRR1758120	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Brain	Female	Adult	Adult	Japanese quail	Bulk
+SRR1758121	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Brain	Male	Adult	Adult	Japanese quail	Bulk
+SRR1758122	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Gonad	Female	Adult	Adult	Japanese quail	Bulk
+SRR1758123	PRJNA272589	Illumina HiSeq 2000	PAIRED	cDNA	Gonad	Male	Adult	Adult	Japanese quail	Bulk
